@@ -578,31 +578,283 @@ main {
 }
 
 @media (max-width: 640px) {
+
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .site-header,
+  .filter-bar,
+  .site-footer {
+    width: 100%;
+    max-width: 100%;
+  }
+
   .header-inner {
+    width: 100%;
+    max-width: 100%;
+    padding: 1.25rem 1rem 1.1rem;
+    gap: 1rem;
     justify-content: center;
     text-align: center;
+    min-width: 0;
   }
+
+  .crest-group {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  .crest-img {
+    width: 44px;
+    height: 44px;
+  }
+
   .header-text {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
     text-align: center;
     order: -1;
-    width: 100%;
   }
-  .crest-group {
-    justify-content: center;
-    width: 100%;
+
+  .eyebrow-line {
+    font-size: 0.68rem;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
   }
-  .filter-group select {
+
+  .site-header h1 {
+    font-size: clamp(1.45rem, 7vw, 1.9rem);
+    line-height: 1.15;
+  }
+
+  .header-sub {
+    font-size: 0.78rem;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+  }
+
+  .theme-switch {
+    max-width: 100%;
+  }
+
+  .theme-option {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.65rem;
+  }
+
+  .filter-bar-inner {
+    width: 100%;
+    max-width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.85rem;
     min-width: 0;
-    width: 100%;
   }
+
+  .filter-group {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .filter-group select {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .day-pills {
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.45rem;
+  }
+
+  .day-pill {
+    width: 100%;
+    min-width: 0;
+    padding: 0.5rem 0.4rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+
   .clear-filters {
+    align-self: flex-start;
     margin-left: 0;
   }
-  .schedule-table thead th:first-child {
-    width: auto;
+
+  .filter-hint {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 1rem 1rem;
+    font-size: 0.78rem;
+    line-height: 1.45;
   }
+
+  main {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    padding: 1.25rem 0.75rem 3rem;
+    overflow: hidden;
+  }
+
+  .schedule-days {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .day-block {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .day-block + .day-block {
+    margin-top: 1.75rem;
+  }
+
   .day-heading {
+    width: 100%;
+    min-width: 0;
     flex-direction: column;
-    gap: 0.15rem;
+    align-items: flex-start;
+    gap: 0.1rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .day-heading-index {
+    font-size: 1.35rem;
+  }
+
+  .day-heading-date {
+    font-size: 0.85rem;
+  }
+
+  .schedule-table {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+  }
+
+  .schedule-table thead {
+    display: none;
+  }
+
+  .schedule-table tbody {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .schedule-table tbody tr {
+    display: grid;
+    grid-template-columns: minmax(0, 5.25rem) minmax(0, 1fr);
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    border-left-width: 3px;
+  }
+
+  .schedule-table tbody td {
+    min-width: 0;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  .schedule-table td {
+    padding: 0.7rem 0.65rem;
+    font-size: 0.84rem;
+  }
+
+  .cell-time {
+    min-width: 0;
+    white-space: normal;
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+  }
+
+  .cell-subject {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.45rem;
+  }
+
+  .subject-code {
+    flex-shrink: 0;
+    max-width: 6rem;
+    font-size: 0.65rem;
+    padding: 0.12rem 0.35rem;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .subject-divider {
+    flex-shrink: 0;
+  }
+
+  .subject-title {
+    min-width: 0;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    word-break: normal;
+    line-height: 1.35;
+  }
+
+  .site-footer {
+    width: 100%;
+    max-width: 100%;
+    padding: 1.25rem 1rem;
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+
+  .site-footer p {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  .schedule-status {
+    width: 100%;
+    max-width: 100%;
+    margin: 1.5rem auto;
+  }
+
+  .status-card {
+    width: 100%;
+    max-width: 100%;
+    padding: 1.25rem;
+  }
+
+  .status-card p {
+    overflow-wrap: anywhere;
+  }
+
+  .celebration-overlay {
+    padding: 1rem;
+  }
+
+  .celebration-card {
+    width: 100%;
+    max-width: calc(100vw - 2rem);
+    padding: 1.75rem 1.25rem 1.5rem;
   }
 }
