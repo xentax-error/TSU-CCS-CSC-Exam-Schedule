@@ -129,6 +129,7 @@ const YEAR_LEVEL_MAP = {
     ],
 
     2: [
+      "Mathematics in the Modern World",
       "Data Structures and Algorithm",
       "Quantitative Methods",
       "Introduction to Networks"
@@ -152,6 +153,7 @@ const YEAR_LEVEL_MAP = {
 
   },
 
+
   "IT-NA": {
 
     1: [
@@ -161,6 +163,7 @@ const YEAR_LEVEL_MAP = {
     ],
 
     2: [
+      "Mathematics in the Modern World",
       "Data Structures and Algorithm",
       "Quantitative Methods",
       "Introduction to Networks"
@@ -172,7 +175,8 @@ const YEAR_LEVEL_MAP = {
       "Enterprise Architecture",
       "Web Development (Lecture)",
       "Enterprise Networking, Security and Automation (Lecture)",
-      "Systems Integration and Architecture"
+      "Systems Integration and Architecture",
+      "Integrative Programming Technologies 1"
     ],
 
     4: [
@@ -183,38 +187,40 @@ const YEAR_LEVEL_MAP = {
 
   },
 
+
   "IT-TSM": {
 
-  1: [
-    "Introduction to Computing",
-    "Computer Programming 1 (Lecture)",
-    "Program Logic Formulation"
-  ],
+    1: [
+      "Introduction to Computing",
+      "Computer Programming 1 (Lecture)",
+      "Program Logic Formulation"
+    ],
 
-  2: [
-    "Mathematics in the Modern World",
-    "Data Structures and Algorithm",
-    "Quantitative Methods",
-    "Introduction to Networks"
-  ],
+    2: [
+      "Mathematics in the Modern World",
+      "Data Structures and Algorithm",
+      "Quantitative Methods",
+      "Introduction to Networks"
+    ],
 
-  3: [
-    "Integrative Programming Technologies 1",
-    "Information Management (Lecture)",
-    "Object Oriented Programming",
-    "Enterprise Architecture",
-    "Web Development (Lecture)",
-    "Fundamentals of BPO 101",
-    "Business Communications"
-  ],
+    3: [
+      "Integrative Programming Technologies 1",
+      "Information Management (Lecture)",
+      "Object Oriented Programming",
+      "Enterprise Architecture",
+      "Web Development (Lecture)",
+      "Fundamentals of BPO 101",
+      "Business Communications"
+    ],
 
-  4: [
-    "Social and Professional Issues in Computing",
-    "Systems Integration and Architecture",
-    "Principles of Systems Thinking"
-  ]
+    4: [
+      "Social and Professional Issues in Computing",
+      "Systems Integration and Architecture",
+      "Principles of Systems Thinking"
+    ]
 
-},
+  },
+
 
   "IT-WMA": {
 
@@ -225,6 +231,7 @@ const YEAR_LEVEL_MAP = {
     ],
 
     2: [
+      "Mathematics in the Modern World",
       "Data Structures and Algorithm",
       "Quantitative Methods",
       "Introduction to Networks"
@@ -249,6 +256,7 @@ const YEAR_LEVEL_MAP = {
 
   },
 
+
   IS: {
 
     1: [
@@ -258,6 +266,7 @@ const YEAR_LEVEL_MAP = {
     ],
 
     2: [
+      "Mathematics in the Modern World",
       "Data Structures and Algorithm",
       "Quantitative Methods",
       "Introduction to Networks"
