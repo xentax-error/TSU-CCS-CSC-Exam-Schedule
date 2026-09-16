@@ -171,7 +171,7 @@ const YEAR_LEVEL_MAP = {
 
     3: [
       "Information Management (Lecture)",
-      "Object Oriented Programming",
+      // "Object Oriented Programming",
       "Enterprise Architecture",
       "Web Development (Lecture)",
       "Enterprise Networking, Security and Automation (Lecture)",
