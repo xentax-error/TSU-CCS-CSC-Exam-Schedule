@@ -113,6 +113,7 @@ const SUBJECT_CODES = {
   "Fundamentals of BPO 101": "TSM 1",
   "Business Communications": "TSM 2",
   "Principles of Systems Thinking": "TSM 5",
+  "Application Development and Emerging Technologies": "CC 5",
   "Mathematics in the Modern World": "MATH 1F"
   
 };
@@ -208,7 +209,6 @@ const YEAR_LEVEL_MAP = {
   ],
 
   4: [
-    "Application Development and Emerging Technologies",
     "Social and Professional Issues in Computing",
     "Systems Integration and Architecture",
     "Principles of Systems Thinking"
@@ -270,6 +270,7 @@ const YEAR_LEVEL_MAP = {
       "Organization and Management",
       "Fundamentals of Analytics Modelling (Lecture)",
       "Analytics Techniques and Tools (Lecture)"
+      "Application Development and Emerging Technologies"
     ],
 
     4: [
