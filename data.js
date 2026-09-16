@@ -269,7 +269,7 @@ const YEAR_LEVEL_MAP = {
       "Systems Analysis & Design",
       "Organization and Management",
       "Fundamentals of Analytics Modelling (Lecture)",
-      "Analytics Techniques and Tools (Lecture)"
+      "Analytics Techniques and Tools (Lecture)",
       "Application Development and Emerging Technologies"
     ],
 
