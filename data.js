@@ -19,7 +19,7 @@ const MASTER_SCHEDULE = [
 
   { day: 1, time: "11:15 AM – 12:45 PM", subject: "Program Logic Formulation" },
   { day: 1, time: "11:15 AM – 12:45 PM", subject: "Windows Enterprise Administration (Lecture)" },
-  { day: 1, time: "11:15 AM – 12:45 PM", subject: "Mathematics in the Modern World" },
+  // { day: 1, time: "11:15 AM – 12:45 PM", subject: "Mathematics in the Modern World" },
   { day: 1, time: "11:15 AM – 12:45 PM", subject: "Integrative Programming Technologies 2 (Lecture)" },
 
   { day: 1, time: "1:00 – 2:30 PM", subject: "Enterprise Architecture" },
@@ -114,7 +114,7 @@ const SUBJECT_CODES = {
   "Business Communications": "TSM 2",
   "Principles of Systems Thinking": "TSM 5",
   "Application Development and Emerging Technologies": "CC 5",
-  "Mathematics in the Modern World": "MATH 1F"
+  // "Mathematics in the Modern World": "MATH 1F"
   
 };
 
@@ -129,7 +129,7 @@ const YEAR_LEVEL_MAP = {
     ],
 
     2: [
-      "Mathematics in the Modern World",
+      //"Mathematics in the Modern World",
       "Data Structures and Algorithm",
       "Quantitative Methods",
       "Introduction to Networks"
@@ -163,7 +163,7 @@ const YEAR_LEVEL_MAP = {
     ],
 
     2: [
-      "Mathematics in the Modern World",
+      //"Mathematics in the Modern World",
       "Data Structures and Algorithm",
       "Quantitative Methods",
       "Introduction to Networks"
@@ -197,7 +197,7 @@ const YEAR_LEVEL_MAP = {
     ],
 
     2: [
-      "Mathematics in the Modern World",
+      //"Mathematics in the Modern World",
       "Data Structures and Algorithm",
       "Quantitative Methods",
       "Introduction to Networks"
@@ -231,7 +231,7 @@ const YEAR_LEVEL_MAP = {
     ],
 
     2: [
-      "Mathematics in the Modern World",
+      //"Mathematics in the Modern World",
       "Data Structures and Algorithm",
       "Quantitative Methods",
       "Introduction to Networks"
@@ -266,7 +266,7 @@ const YEAR_LEVEL_MAP = {
     ],
 
     2: [
-      "Mathematics in the Modern World",
+      //"Mathematics in the Modern World",
       "Data Structures and Algorithm",
       "Quantitative Methods",
       "Introduction to Networks"
